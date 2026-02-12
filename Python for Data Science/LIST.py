@@ -117,7 +117,7 @@ print("Setelah di reverse:", buah)
 # MATERI COPY list
 
 print("contoh copy list")
-a = ["Rasky", "mischa", "yati", "karno"]
+a = ["Rasky", "Ronaldo", "Mbappe", "Ole"]
 b = a
 
 print(f"nama data a = \n {a}")
@@ -130,7 +130,7 @@ print(f"nama data b = \n {b}")
 # agar tidak ikut berubah harus di tambahkan method copy()
 
 print("contoh copy list dengan method copy()")
-a = ["Rasky", "mischa", "yati", "karno"]
+a = ["Rasky", "Ronaldo", "Mbappe", "Ole"]
 b = a.copy()
 
 b[2] = "balik"
@@ -147,9 +147,9 @@ print(f"nama data b = \n {b}")
 print("\ncontoh nested list")
 
 peserta_0 = ["Rasky", 20, "Laki-laki"]
-peserta_1 = ["Mischa", 19, "Perempuan"]
-peserta_2 = ["Yati", 8, "Perempuan"]
-peserta_3 = ["karno", 5, "Laki-laki"]
+peserta_1 = ["Ronaldo", 19, "Perempuan"]
+peserta_2 = ["Mbappe", 8, "Perempuan"]
+peserta_3 = ["Ole", 5, "Laki-laki"]
 
 data_peserta =[peserta_0, peserta_1, peserta_2, peserta_3]
 print(" jadi data peserta = ",data_peserta)
@@ -158,4 +158,5 @@ for peserta in data_peserta:
     print(f"\nnama \t\t: {peserta[0]}")
     print(f"umur \t\t: {peserta[1]}")
     print(f"jenis kelamin \t: {peserta[2]}")
+
 
