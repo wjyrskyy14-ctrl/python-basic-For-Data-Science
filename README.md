@@ -82,5 +82,5 @@ Kalau kamu ingin kontribusi (misal: tambah materi, tambah visualisasi, atau kata
 
 ## 📞 Kontak
 Jika ingin diskusi seputar Python atau belajar bareng, bisa hubungi aku lewat GitHub atau DM 🙂
-📷 Instagram: @raskywjy
-💼 LinkedIn: https://www.linkedin.com/in/rasky-wijaya-6235b1398/
+- 📷 Instagram: @raskywjy
+- 💼 LinkedIn: https://www.linkedin.com/in/rasky-wijaya-6235b1398/
