@@ -15,6 +15,7 @@ Repo ini saya gunakan sebagai catatan pembelajaran, referensi, dan portofolio un
 │ └── Matplotlib.ipynb
 ├── NUMPY.py
 ├── README.md
+├── SQL.pdf
 
 
 - 📁 **visualisasi**  
@@ -23,6 +24,8 @@ Repo ini saya gunakan sebagai catatan pembelajaran, referensi, dan portofolio un
   Latihan penggunaan NumPy (array, operasi matematika, dsb)
 - 📄 **README.md**  
   Penjelasan repo ini
+- 🗄 **SQL.pdf**
+  Berisi materi SQL yg saya pelajari dan sekiranya akan digunakan pada Data Science
 
 ---
 
@@ -45,6 +48,17 @@ Visualisasi data dengan:
 - **Seaborn** — statistik & grafik kompleks
 - **Matplotlib** — grafik dasar & custom
 
+### 🗄 SQL Dasar untuk Data Science
+- SELECT
+- WHERE
+- GROUP BY
+- HAVING
+- JOIN
+- COUNT / SUM / AVG
+- CASE WHEN
+- Subquery
+- Window Function (Dasar)
+
 ---
 
 ## 💡 Contoh Cara Jalanin Kode
@@ -60,6 +74,7 @@ Untuk menjalankan notebook:
 - NumPy
 - Seaborn
 - Matplotlib
+- MYSQL
 
 ## 🤝 Kontribusi
 Terima kasih sudah mampir!
@@ -67,3 +82,5 @@ Kalau kamu ingin kontribusi (misal: tambah materi, tambah visualisasi, atau kata
 
 ## 📞 Kontak
 Jika ingin diskusi seputar Python atau belajar bareng, bisa hubungi aku lewat GitHub atau DM 🙂
+📷 Instagram: @raskywjy
+💼 LinkedIn: https://www.linkedin.com/in/rasky-wijaya-6235b1398/
