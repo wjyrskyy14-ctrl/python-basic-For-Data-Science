@@ -1,10 +1,9 @@
-# 📘 Python Basic — Hasil Belajar
+# 📘 Python Basic — Learning Journey
 
-Repository ini berisi kumpulan **latihan dan eksperimen Python** yang saya pelajari secara bertahap. 
-Fokus utamanya adalah materi dasar Python, praktik library populer seperti **NumPy, pandas, Seaborn**, serta visualisasi data sederhana.
+This repository contains a collection of Python exercises and experiments that I have learned step by step.
+The main focus is on fundamental Python concepts, practicing popular libraries such as NumPy, pandas, Seaborn, and simple data visualization.
 
-Repo ini saya gunakan sebagai catatan pembelajaran, referensi, dan portofolio untuk menunjukkan progres saya belajar Python dari nol sampai siap proyek nyata.
-
+I use this repository as a learning journal, reference, and portfolio to showcase my progress in learning Python from scratch until I am ready to build real projects.
 ---
 
 ## 🚀 Struktur Repository
@@ -18,37 +17,37 @@ Repo ini saya gunakan sebagai catatan pembelajaran, referensi, dan portofolio un
 ├── SQL.pdf
 
 
-- 📁 **visualisasi**  
-  Berisi notebook visualisasi data dengan **Seaborn** dan **Matplotlib**
-- 🧠 **NUMPY.py**  
-  Latihan penggunaan NumPy (array, operasi matematika, dsb)
-- 📄 **README.md**  
-  Penjelasan repo ini
-- 🗄 **SQL.pdf**
-  Berisi materi SQL yg saya pelajari dan sekiranya akan digunakan pada Data Science
+= 📁 visualisasi
+Contains data visualization notebooks using Seaborn and Matplotlib
+= 🧠 NUMPY.py
+Practice using NumPy (arrays, mathematical operations, etc.)
+= 📄 README.md
+Explanation of this repository
+= 🗄 SQL.pdf
+Contains SQL materials that I have studied and plan to use in Data Science
 
 ---
 
-## 📚 Materi yang Dibahas
+## 📚 Topics Covered
 
-### 🟡 Python Dasar  
-- Variabel, tipe data, input/output  
-- Kondisional (`if`, `elif`, `else`)  
-- Loop (`for`, `while`)  
-- Fungsi, modul, dan package  
+### 🟡 Basic Python 
+- Variables, data types, input/output
+- Conditionals (if, elif, else)
+= Loops (for, while)
+= Functions, modules, and packages
 
 ### 🔢 NumPy  
-Praktik penggunaan array NumPy untuk komputasi numerik.
+Practice using NumPy arrays for numerical computation.
 
 ### 📊 pandas & EDA  
-Latihan manipulasi data menggunakan pandas.
+Practice data manipulation using pandas.
 
-### 📈 Visualisasi  
-Visualisasi data dengan:
-- **Seaborn** — statistik & grafik kompleks
-- **Matplotlib** — grafik dasar & custom
+### 📈 Visualization
+- Data visualization using:
+- Seaborn — statistical & complex plots
+- Matplotlib — basic & customizable plots
 
-### 🗄 SQL Dasar untuk Data Science
+### 🗄 Basic SQL for Data Science
 - SELECT
 - WHERE
 - GROUP BY
@@ -61,13 +60,13 @@ Visualisasi data dengan:
 
 ---
 
-## 💡 Contoh Cara Jalanin Kode
-Beberapa latihan berupa file Python (.py), dan beberapa berupa notebook Jupyter (.ipynb).  
-Untuk menjalankan notebook:
-- 1. Buka di Jupyter Notebook / VS Code
-- 2. Jalankan cell satu per satu
+## 💡 How to Run the Code
+Some exercises are Python files (.py), and others are Jupyter notebooks (.ipynb).
+To run the notebooks:
+- 1. Open them in Jupyter Notebook / VS Code
+- 2. Run the cells one by one
 
-## 📦 Tools yang Digunakan
+## 📦 Tools Used
 - Python 3.x
 - Jupyter Notebook
 - pandas
@@ -76,11 +75,11 @@ Untuk menjalankan notebook:
 - Matplotlib
 - MYSQL
 
-## 🤝 Kontribusi
-Terima kasih sudah mampir!
-Kalau kamu ingin kontribusi (misal: tambah materi, tambah visualisasi, atau kata-kata yang lebih baik), silakan fork repo ini dan ajukan pull request 🧡
+## 🤝 Contribution
+Thank you for visiting!
+If you would like to contribute (for example: add materials, add visualizations, or improve wording), feel free to fork this repository and submit a pull request 🧡
 
 ## 📞 Kontak
-Jika ingin diskusi seputar Python atau belajar bareng, bisa hubungi aku lewat GitHub atau DM 🙂
+If you would like to discuss Python or learn together, feel free to reach out via GitHub or DM 🙂
 - 📷 Instagram: @raskywjy
 - 💼 LinkedIn: https://www.linkedin.com/in/rasky-wijaya-6235b1398/
