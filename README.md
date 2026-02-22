@@ -6,7 +6,7 @@ The main focus is on fundamental Python concepts, practicing popular libraries s
 I use this repository as a learning journal, reference, and portfolio to showcase my progress in learning Python from scratch until I am ready to build real projects.
 ---
 
-## 🚀 Struktur Repository
+## 🚀 Repository Structure
 
 📁 python-basic
 ├── 📁 visualisasi
@@ -79,7 +79,7 @@ To run the notebooks:
 Thank you for visiting!
 If you would like to contribute (for example: add materials, add visualizations, or improve wording), feel free to fork this repository and submit a pull request 🧡
 
-## 📞 Kontak
+## 📞 Contact
 If you would like to discuss Python or learn together, feel free to reach out via GitHub or DM 🙂
 - 📷 Instagram: @raskywjy
 - 💼 LinkedIn: https://www.linkedin.com/in/rasky-wijaya-6235b1398/
