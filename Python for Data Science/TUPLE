@@ -1,0 +1,122 @@
+                                    # TUPLE ()
+#daftar data yang sudah dikunci
+
+#urut ✔️
+#bisa diakses ✔️
+#tidak bisa diubah ❌
+###LATIHAN 1
+
+nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway', 'Sweden')
+
+print('Estonia' in nordic_countries) #false
+print('Iceland' in nordic_countries, '\n') #true  
+
+### LATIHAN: TINGKAT 1
+
+# 1. Buat tupel kosong
+# 2. Buatlah tupel yang berisi nama saudara perempuan dan saudara laki-laki Anda, saudara imajiner boleh saja
+# 3. Gabungkan tupel saudara dan saudari dan tugaskan ke saudara kandung
+# 4. Berapa saudara kandung yang anda miliki?
+# 5. Ubah tuple saudara kandung dan tambahkan nama ayah dan ibu Anda dan tetapkan ke family_members
+
+tuple_kosong = ()
+
+saudara_laki2 = ('Rasky', 'steve', 'jhon')
+saudara_perempuan = ('Vira', 'Miva', 'Riska')
+
+siblings = saudara_laki2 + saudara_perempuan
+
+len(siblings) #6
+print(len(siblings))
+
+keluarga = siblings + ('Ayah', 'Ibu') #menggabungkan tuple siblings dengan tuple yang berisi nama ayah dan ibu, lalu menetapkan hasilnya ke variabel keluarga (family_members)
+print(keluarga)
+
+### LATIHAN: TINGKAT 2
+# 1. Buka paket saudara dan orang tua dari anggota_keluarga
+# 2. Membuat tupel buah-buahan, sayuran dan produk hewani.Gabungkan ketiga tupel dan tetapkan ke variabel bernama food_stuff_tp.
+# 3. Ubah tuple about food_stuff_tp menjadi daftar food_stuff_lt
+# 4. Potong item tengah atau beberapa item dari tupel food_stuff_tp atau daftar food_stuff_lt.
+# 5. Potong tiga item pertama dan tiga item terakhir dari daftar food_stuff_lt
+# 6. Hapus tupel food_stuff_tp sepenuhnya
+# 7. Periksa apakah ada item di tuple:
+
+anggota_keluarga = ('Rasky', 'steve', 'jhon', 'Vira', 'Miva', 'Riska', 'Ayah', 'Ibu')
+
+brother1, brother2, brother3, sister1, sister2, sister3, father, mother = anggota_keluarga # unpacking tuple anggota_keluarga ke dalam variabel yang sesuai
+
+#membuat tupel buah-buahan, sayuran dan produk hewani
+buah = ('banana', 'orange', 'mango')
+sayur = ('bayam', 'kangkung', 'selada')
+daging = ('ayam', 'sapi', 'kambing')
+
+food_stuff_tp = buah + sayur + daging #menggabungkan ketiga tupel dan menetapkan ke variabel food_stuff_tp
+print(food_stuff_tp, '\n')
+
+#mengubah tuple menjadi list
+food_stuff_lt = list(food_stuff_tp)
+
+# memotong item tengah dari food_stuff_tp
+middle_index = len(food_stuff_tp) // 2
+print(food_stuff_tp[middle_index], '\n') #mengambil item tengah dari food_stuff_tp
+
+#menampilkan tiga item pertama dan tiga item terakhir dari food_stuff_lt
+tiga_item_pertama = food_stuff_tp[:3]
+print(tiga_item_pertama, '\n') #output: ('banana', 'orange', 'mango')
+tiga_item_terakhir = food_stuff_tp[-3:]
+print(tiga_item_terakhir, '\n') #output: ('ayam', 'sapi', 'kambing')
+
+#menghapus tuple food_stuff_tp sepenuhnya
+del food_stuff_tp
+print(food_stuff_tp) #error karena sudah dihapus
+
+###LATIHAN 3
+
+nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway', 'Sweden')
+
+print('Estonia' in nordic_countries) #false
+print('Iceland' in nordic_countries) #true  
+#Kalau list = buku catatan yang bisa diedit,
+#maka tuple = dokumen PDF (hanya baca).
+
+fruits = ('banana', 'orange', 'mango', 'lemon')
+print(fruits, "\n")
+
+# menghitung jumlah elemen dalam tuple
+len(fruits) 
+print(len(fruits), "\n")
+
+# mengakses isi dalam tuple menggunakan indeks
+fruits[0]   # banana 
+print(fruits[0])
+fruits[-1]   # lemon
+print(fruits[-1], '\n')
+
+#slicing tuple
+print(fruits[0:3], '\n') # mengambil elemen dari indeks (banana, orange, mango)
+
+# mengubah tuple 
+# tips  : tuple → list → edit → tuple lagi
+
+fruits = ('banana','orange','mango')
+
+fruits = list(fruits)
+fruits[0] = 'apple'
+fruits = tuple(fruits)
+
+print(fruits, '\n') #apple, orange, mango
+
+#Mengecek Item di Tuple
+print('banana' in fruits, '\n') #false
+
+#Menggabungkan Tuple
+buah = ('banana', 'orange', 'mango')
+sayur = ('bayam', 'kangkung', 'selada')
+gabungan = buah + sayur
+print(gabungan) #('banana', 'orange', 'mango', 'bayam
+
+#meghapus tuple
+buah = ('banana', 'orange', 'mango')
+del buah
+print(buah) #error karena sudah dihapus
+
