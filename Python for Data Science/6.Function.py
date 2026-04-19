@@ -39,9 +39,11 @@ sapa("Skyyy")  # Halo Skyyy
 
 # 7. Banyak Argumen 
 def jumlah_semua(*angka):
-    total = 0
-    for a in angka:
-        total += a
+    total = 0 #dipakai untuk menyimpan hasil penjumlahan
+    for a in angka: 
+        total += a #Ini sama dengan: total = total + a. 
+                                      # proses nya total = 0 + 1 → 1
+                                                   #total = 1 + 2 → 3
     return total
 
 print(jumlah_semua(1,2,3,4),'\n')  #output = 10
@@ -61,10 +63,10 @@ print(is_even(5),'\n') #output = False
 
 # 10.Return List
 def angka_genap(n):
-    hasil = []
+    hasil = [] #dipakai untuk menyimpan angka genap
     for i in range(n+1):
         if i % 2 == 0: #mencetak angka genap saja
-            hasil.append(i)
-    return hasil
+            hasil.append(i) #append() = menambahkan ke list. Kalau i genap, masukkan ke hasil
+    return  #Mengembalikan isi list
 
 print(angka_genap(10)) #output = [0, 2, 4, 6, 8, 10]
