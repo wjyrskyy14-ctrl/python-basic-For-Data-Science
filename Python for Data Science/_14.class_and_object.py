@@ -14,6 +14,7 @@ class Mahasiswa :
 mhs1 = Mahasiswa("Rasky", 20) # membuat object mhs1 dari class Mahasiswa dengan nilai atribut nama = "Rasky" dan umur = 20
 print(mhs1.nama) # Output: Rasky
 print(mhs1.umur,'\n') # Output: 20
+print(mhs1.nama, mhs1.umur, '\n') # output: Rasky 20
 
 
                                         # 2. METHOD = fungsi dalam class 
