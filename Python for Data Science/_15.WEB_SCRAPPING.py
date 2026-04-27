@@ -45,8 +45,8 @@ print(soup.title.text) # hanya mengambil teks murni judul nya
 link = soup.find_all('a') # Menggunakan metode find_all() untuk mencari semua elemen <a> dalam HTML, yang biasanya digunakan untuk membuat tautan (link). Hasilnya akan berupa daftar (list) dari semua elemen <a> yang ditemukan.
 
 print("contoh link:")
-for link in link:
-    print(link.text)
+for a in link:
+    print(a.text)
 
 # 4. CARI SEMUA PARAGRAF DALAM WEBSITE
 paragraf = soup.find_all('p') # Menggunakan metode find_all() untuk mencari semua elemen <p> dalam HTML, yang biasanya digunakan untuk membuat paragraf. Hasilnya akan berupa daftar (list) dari semua elemen <p> yang ditemukan.
