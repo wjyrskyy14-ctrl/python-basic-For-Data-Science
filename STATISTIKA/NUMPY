@@ -1,0 +1,25 @@
+import numpy as np
+
+angka_1 = np.array([1, 2, 3, 4, 5])
+angka_2 = np.array([6, 7, 8, 9, 10])
+angka3 = np.array([11, 12, 13, 14, 15])
+
+gabungan = np.array([angka_1, angka_2, angka3])
+print(gabungan, "\n")
+
+print(gabungan.shape, '\n') # (3, 5) menampilkan jumlah dimensi dan elemen pada array
+ubah  = gabungan.reshape(5,3) # mengubah dimensi array menjadi 5 baris dan 3 kolom
+print(ubah, "\n")
+print(ubah.shape, '\n') # (5, 3) menampilkan jumlah dimensi dan elemen pada array setelah diubah
+
+print(np.arange(1, 10, 2),'\n') # membuat array dari 1 sampai 10 dengan step 2
+
+#INDEXING ARRAY GABUNGAN 
+
+array = np.array([[1,2,3,4,5]
+                  ,[6,7,8,9,10]
+                  ,[11,12,13,14,15]])
+
+# saya mau ambil index 0 kolom 2 dan 3 lalu index 1 kolom 2 dan 3
+print(array[[0,1],2:4],'\n') #mengambil output [[3 4] & [8 9]]
+print(array[[1,2],1:3]) #mengambil output [[ 7  8] & [12 13]]
